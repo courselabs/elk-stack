@@ -1,7 +1,7 @@
 
-Welcome to the CI Fundamentals labs.
+Welcome to the ELK Stack labs.
 
-These are hands-on resources to help you learn Continuous Integration (CI) and Continuous Deployment (CD).
+These are hands-on resources to help you learn Elasticsearch, Logstash and Kibana.
 
 ## Pre-reqs
 
