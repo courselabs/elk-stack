@@ -1,0 +1,29 @@
+{ 
+    "query": 
+    { 
+        "bool":  
+        {
+            "must" : 
+            [
+                {
+                    "match":  
+                    {
+                        "role": "chief"
+                    }
+                },
+                {
+                    "match":  
+                    {
+                        "role": "technology"
+                    }
+                },
+                {
+                    "match":  
+                    {
+                        "role": "officer"
+                    }
+                }
+            ]
+        }
+    } 
+}

@@ -2,8 +2,8 @@
 
 ## REference
 
-- [Index API]
-- [Search API]
+- [Index API](https://www.elastic.co/guide/en/elasticsearch/reference/current/indices.html)
+- [Search API](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-search.html)
 - [Query DSL](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl.html)
 
 
@@ -36,6 +36,13 @@ docker-compose -f labs/for-search/compose.yml up -d
 docker logs elkstack_elasticsearch_1 
 ```
 
+
+_On Windows 10:_
+
+```
+. ./labs/scripts/windows-tools.ps1
+```
+
 ```
 curl http://localhost:9200
 ```
@@ -46,11 +53,6 @@ What version are we running?
 
 Indexing is how you store data in Elasticsearch. There are client libraries for all the major languages, and you can use the REST API.
 
-_On Windows 10:_
-
-```
-. ./labs/scripts/windows-tools.ps1
-```
 
 ```
 curl -H 'Content-Type: application/json' -XPOST 'http://localhost:9200/classes/_doc/elk-stack' --data-binary "@labs/for-search/data/elk-stack.json"
@@ -79,7 +81,7 @@ curl http://localhost:9200/classes/_doc/k8s-fun
 
 
 
-## Searching and filtering
+## Basic searching
 
 Querystring:
 
@@ -95,13 +97,10 @@ curl -H 'Content-Type: application/json' http://localhost:9200/classes/_search?p
 curl -H 'Content-Type: application/json' http://localhost:9200/classes/_search?pretty=true --data-binary "@labs/for-search/queries/match-bool-name.json"
 
 
-> Mapping
-
-
-
-
-
 ## Lab
 
-- load students
-- update class
+- bulk load students
+- how many "Chiefs"?
+- who is the CTO of Globomantics?
+
+> Stuck? Try [hints](hints.md) or check the [solution](solution.md).

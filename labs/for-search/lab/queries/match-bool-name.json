@@ -1,0 +1,23 @@
+{ 
+    "query": 
+    { 
+        "bool":  
+        {
+            "must" : 
+            [
+                {
+                    "match": 
+                    {
+                        "name": "fundamentals"
+                    }
+                },
+                {
+                    "match": 
+                    {
+                        "name": "docker"
+                    }
+                }
+            ]
+        }
+    } 
+}

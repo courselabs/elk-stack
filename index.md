@@ -15,10 +15,10 @@ These are hands-on resources to help you learn Elasticsearch, Logstash and Kiban
 
 ## Part 1 - Getting Started with Elasticsearch
 
-- [You know, for search]()
+- [You know, for search](labs/for-search)
 - [Documents, Fields and Mappings]() # https://www.elastic.co/guide/en/kibana/6.8/tutorial-load-dataset.html 
+- [Aggregation Queries]()
 - [Shards and Replicas]()
-- [Admin APIs ]()
 
 ## Part 2 - Visualizing Data with Kibana
 

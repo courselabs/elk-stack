@@ -1,0 +1,18 @@
+{ "index" : { "_index" : "students" } }
+{ "firstName" : "Nadia Chan", "lastName" : "", "organization" : "Globomantics", "role": "Site Reliability Engineer" }
+{ "index" : { "_index" : "students" } }
+{ "firstName" : "Daryl", "lastName" : "Blake", "organization" : "Wired Brain Coffee", "role": "Search Guru" }
+{ "index" : { "_index" : "students" } }
+{ "firstName" : "Austin", "lastName" : "Shaffer", "organization" : "Globomantics", "role": "Ops Lead" }
+{ "index" : { "_index" : "students" } }
+{ "firstName" : "Mikel", "lastName" : "Sosa", "organization" : "Wired Brian Coffee", "role": "Chief Scientist" }
+{ "index" : { "_index" : "students" } }
+{ "firstName" : "Arnulfo", "lastName" : "Grant", "organization" : "Wired Brain Coffee", "role": "Engineer" }
+{ "index" : { "_index" : "students" } }
+{ "firstName" : "Christian", "lastName" : "Bentley", "organization" : "Globomantics", "role": "Site Reliability Engineer"  }
+{ "index" : { "_index" : "students" } }
+{ "firstName" : "Katrina", "lastName" : "Burns", "organization" : "Globomantics", "role": "Intern (Engineering)" }
+{ "index" : { "_index" : "students" } }
+{ "firstName" : "Monique", "lastName" : "Burns", "organization" : "Globomantics", "role": "Site Reliability Engineer"  }
+{ "index" : { "_index" : "students" } }
+{ "firstName" : "Vilma", "lastName" : "Macdonald", "organization" : "Globomantics", "role": "Chief Technology Officer" }
