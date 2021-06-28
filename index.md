@@ -16,23 +16,23 @@ These are hands-on resources to help you learn Elasticsearch, Logstash and Kiban
 ## Part 1 - Getting Started with Elasticsearch
 
 - [You know, for search]()
-- [Documents, Indices and Types]() # https://www.elastic.co/guide/en/kibana/6.8/tutorial-load-dataset.html 
-- [Custom mappings]()
-- [REST API and libraries]()
+- [Documents, Fields and Mappings]() # https://www.elastic.co/guide/en/kibana/6.8/tutorial-load-dataset.html 
+- [Shards and Replicas]()
+- [Admin APIs ]()
 
-## Part 2 - Ingesting Data with Logstash
-
-- [Logstash pipeline]()
-- [Filters and plugins]()
--
--
-
-## Part 3 - Visualizing Data with Kibana
+## Part 2 - Visualizing Data with Kibana
 
 - [Connecting to Elasticsearch]() # inc Console for queries
 - [Adding and querying indexes]()
 - [Search and visualize]()
 - [Building dashboards]()
+
+## Part 3 - Ingesting Data with Logstash
+
+- [Logstash pipeline]()
+- [Filters and plugins]()
+-
+-
 
 ## Part 4 - Advanced Elasticsearch 
 

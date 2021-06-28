@@ -1,0 +1,12 @@
+{ 
+    "query": 
+    { 
+        "term":  
+        {
+            "name" : 
+            {
+                "value": "fundamentals"
+            }
+        }
+    } 
+}

@@ -1,0 +1,8 @@
+services:
+
+  elasticsearch:
+    image: courselabs/elasticsearch:7.10
+    build: 
+      context: ./elasticsearch
+      args: 
+        - ES_VERSION=7.10.2
