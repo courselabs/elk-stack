@@ -20,7 +20,8 @@ COPY --from=installer /elasticsearch .
 
 EXPOSE 9200 9300
 ENV ES_HOME="/usr/share/elasticsearch" \
-    ES_JAVA_OPTS="-Xms1024m -Xmx1024m"
+    ES_JAVA_OPTS="-Xms1024m -Xmx1024m" \
+    discovery.type="single-node"
 
 COPY elasticsearch.yml log4j2.properties ./config/
 

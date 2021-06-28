@@ -1,0 +1,44 @@
+services:
+
+  es01:
+    image: courselabs/elasticsearch:7.10
+    hostname: es01
+    ports: 
+      - 9201:9200
+    volumes:
+      - ./config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
+    networks:
+      - elk
+
+  es02:
+    image: courselabs/elasticsearch:7.10
+    hostname: es02
+    ports: 
+      - 9202:9200
+    volumes:
+      - ./config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
+    networks:
+      - elk
+
+  es03:
+    image: courselabs/elasticsearch:7.10
+    hostname: es03
+    ports: 
+      - 9203:9200
+    volumes:
+      - ./config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
+    networks:
+      - elk
+
+  es04:
+    image: courselabs/elasticsearch:7.10
+    hostname: es04
+    ports: 
+      - 9204:9200
+    volumes:
+      - ./config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
+    networks:
+      - elk
+
+networks:
+  elk:

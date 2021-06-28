@@ -1,0 +1,16 @@
+{
+    "mappings": {
+      "properties": {
+       "speaker": {"type": "keyword"},
+       "play_name": {"type": "keyword"},
+       "line_id": {"type": "integer"},
+       "speech_number": {"type": "integer"}
+      }
+     },
+     "settings" : {
+      "index" : {
+          "number_of_shards" : 6, 
+          "number_of_replicas" : 2 
+      }
+  }
+}
