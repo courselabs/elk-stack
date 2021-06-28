@@ -1,0 +1,8 @@
+{
+  "query": { "wildcard": { "play_name": "Henry*" } },
+  "aggs": {
+    "play": {   
+        "cardinality": { "field": "play_name" }
+      }
+    }
+  }

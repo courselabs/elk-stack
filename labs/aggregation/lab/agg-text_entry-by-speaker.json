@@ -1,0 +1,11 @@
+{
+    "query": { "match": { "text_entry" : "coward" } },
+    "aggs": {
+      "play": {
+        "terms": 
+        { 
+          "field": "speaker"
+        }
+      }
+    }
+  }

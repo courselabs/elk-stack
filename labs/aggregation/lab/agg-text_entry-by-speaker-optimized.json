@@ -1,0 +1,17 @@
+{
+    "query": { 
+      "bool":  
+      {
+        "filter" : { "term": { "type" : "line" } },
+         "must" :  { "match": { "text_entry" : "coward" } }
+      }
+    },
+    "aggs": {
+      "speaker": {
+        "terms": 
+        { 
+          "field": "speaker"
+        }
+      }
+    }
+  }

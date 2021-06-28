@@ -1,0 +1,7 @@
+{
+  "aggs": {
+    "play": {
+      "cardinality": { "field": "play_name" }
+    }
+  }
+}

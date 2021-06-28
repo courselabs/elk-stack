@@ -1,0 +1,7 @@
+{
+    "aggs": {
+      "play": {
+        "terms": { "field": "play_name" }
+      }
+    }
+  }

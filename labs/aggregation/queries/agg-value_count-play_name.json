@@ -1,0 +1,7 @@
+{
+    "aggs": {
+      "play": {
+        "value_count": { "field": "play_name" }
+      }
+    }
+  }

@@ -1,0 +1,6 @@
+services:
+
+  elasticsearch:
+    image: courselabs/elasticsearch:7.10
+    ports: 
+      - 9200:9200

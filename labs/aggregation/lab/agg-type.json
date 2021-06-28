@@ -1,0 +1,7 @@
+{
+  "aggs": {
+    "type": {
+      "terms": { "field": "type.keyword" }
+    }
+  }
+}

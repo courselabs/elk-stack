@@ -1,0 +1,13 @@
+{ 
+    "query": 
+    { 
+        "wildcard":  
+        {
+            "play_name" : 
+            {
+                "value": "henry*",
+                "case_insensitive" : true
+            }
+        }
+    } 
+}

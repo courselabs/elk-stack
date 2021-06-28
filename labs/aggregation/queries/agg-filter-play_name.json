@@ -1,0 +1,11 @@
+{
+    "aggs": {
+      "play": {
+        "terms": 
+        { 
+          "field": "play_name",
+          "include" : "Henry.*"
+        }
+      }
+    }
+  }

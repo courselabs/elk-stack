@@ -1,0 +1,12 @@
+{ 
+    "query": 
+    { 
+        "term":  
+        {
+            "play_name" : 
+            {
+                "value": "henry"
+            }
+        }
+    } 
+}
