@@ -1,0 +1,8 @@
+{
+    "source": {
+      "index": "students"
+    },
+    "dest": {
+      "index": "students2"
+    }
+  }

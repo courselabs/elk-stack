@@ -1,3 +1,9 @@
+{ "index" : { "_index" : "classes", "_id" : "docker-fun" } }
+{ "cid" : "docker-fun", "name" : "Docker Fundamentals", "labUrl" : "https://k8sfun.courselabs.co" }
+{ "index" : { "_index" : "classes", "_id" : "elk-stack" } }
+{ "cid" : "elk-stack", "name" : "Working with the ELK Stack", "labUrl" : "https://elkstack.courselabs.co" }
+{ "index" : { "_index" : "classes", "_id" : "k8s-fun" } }
+{ "cid" : "k8s-fun", "name" : "Kubernetes Fundamentals", "labUrl" : "https://k8sfun.courselabs.co" }
 { "index" : { "_index" : "students", "_id" : "1" } }
 { "sid" : 1, "firstName" : "Nadia", "lastName" : "Chan", "organization" : "Globomantics", "role": "Site Reliability Engineer" }
 { "index" : { "_index" : "students", "_id" : "2" } }

@@ -3,9 +3,9 @@
     { 
         "term":  
         {
-            "name" : 
+            "name.keyword" : 
             {
-                "value": "docker fundamentals"
+                "value": "Docker Fundamentals"
             }
         }
     } 
