@@ -5,6 +5,8 @@ services:
     hostname: es01
     ports: 
       - 9201:9200
+    ulimits:
+      nofile: 65536
     volumes:
       - ./config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
     networks:
@@ -15,6 +17,8 @@ services:
     hostname: es02
     ports: 
       - 9202:9200
+    ulimits:
+      nofile: 65536
     volumes:
       - ./config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
     networks:
@@ -25,6 +29,8 @@ services:
     hostname: es03
     ports: 
       - 9203:9200
+    ulimits:
+      nofile: 65536
     volumes:
       - ./config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
     networks:
@@ -35,6 +41,8 @@ services:
     hostname: es04
     ports: 
       - 9204:9200
+    ulimits:
+      nofile: 65536
     volumes:
       - ./config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
     networks:
