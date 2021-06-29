@@ -17,12 +17,12 @@ These are hands-on resources to help you learn Elasticsearch, Logstash and Kiban
 
 - [You know, for search](labs/for-search)
 - [Documents, Fields and Mappings](labs/mappings)
-- [Aggregation Queries]()
-- [Shards and Replicas]()
+- [Aggregation Queries](labs/aggregation)
+- [Shards and Replicas](labs/shards)
 
 ## Part 2 - Accessing Data with Kibana
 
-- [Connecting to Elasticsearch]() # inc Console for queries
+- [Running Kibana](labs/kibana) 
 - [Adding and querying indexes]()
 - [Search and visualize]()
 - [Building dashboards]()
