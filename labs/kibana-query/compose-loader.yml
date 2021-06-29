@@ -1,0 +1,13 @@
+services:
+
+  load-netflix:
+    image: courselabs/python-elasticsearch:7.10
+    working_dir: /data
+    command: load_data.py
+    volumes:
+      - ./data:/data
+    networks:
+      - elkstack
+
+networks:
+  elkstack:

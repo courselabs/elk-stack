@@ -1,0 +1,8 @@
+elasticsearch>=7.0.0,<8.0.0
+numpy==1.21.0
+pandas==1.2.5
+python-dateutil>=2.6.1
+pytz>=2017.2
+six==1.10.0
+urllib3>=1.21.1
+xport==0.6.4
