@@ -23,16 +23,16 @@ These are hands-on resources to help you learn Elasticsearch, Logstash and Kiban
 ## Part 2 - Accessing Data with Kibana
 
 - [Running Kibana](labs/kibana) 
-- [Adding and querying indexes]()
-- [Search and visualize]()
+- [Querying data](labs/kibana-query)
+- [Visualizing data]()
 - [Building dashboards]()
 
 ## Part 3 - Ingesting Data with Logstash
 
-- [Logstash pipeline]()
-- [Filters and plugins]()
--
--
+- [Running Logstash](labs/logstash) 
+- [Pipelines](labs/pipelines)
+- [Index templates and aliases]()
+- []()
 
 ## Part 4 - Advanced Elasticsearch 
 

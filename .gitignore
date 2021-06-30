@@ -1,1 +1,4 @@
 shakespeare_6.0.json
+labs/logstash/data/
+labs/pipelines/data/
+labs/pipelines/pipelines/simplecsv-to-es.conf

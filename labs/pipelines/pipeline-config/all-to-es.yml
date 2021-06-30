@@ -1,0 +1,5 @@
+- pipeline.id: http_poller-to-es
+  path.config: "/pipelines/http_poller-to-es.conf"
+  
+- pipeline.id: apache-to-es
+  path.config: "/pipelines/apache-to-es.conf"

@@ -1,0 +1,2 @@
+- pipeline.id: apache-to-es
+  path.config: "/pipelines/apache-to-es.conf"
