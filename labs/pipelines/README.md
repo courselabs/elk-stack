@@ -5,7 +5,7 @@
 ```
 docker-compose -f labs/pipelines/compose.yml up -d
 
-...logs -f
+docker logs elkstack_logstash_1 -f
 ```
 
 > logstash recreated, new volume mount
