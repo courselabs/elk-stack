@@ -1,0 +1,2 @@
+- pipeline.id: default
+  path.config: "/pipelines/default.conf"

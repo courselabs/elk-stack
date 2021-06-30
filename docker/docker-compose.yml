@@ -7,6 +7,13 @@ services:
       args: 
         - ES_VERSION=7.10.2
 
+  logstash:
+    image: courselabs/logstash:7.10
+    build: 
+      context: ./logstash
+      args: 
+        - LOGSTASH_VERSION=7.10.2
+
   kibana:
     image: courselabs/kibana:7.10
     build: 
