@@ -1,0 +1,2 @@
+- pipeline.id: simplecsv-to-es
+  path.config: "/pipelines/simplecsv-to-es.conf"

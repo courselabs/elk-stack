@@ -1,0 +1,2 @@
+- pipeline.id: heartbeat-to-es
+  path.config: "/pipelines/heartbeat-to-es.conf"
