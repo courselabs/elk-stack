@@ -1,0 +1,4 @@
+- module: apache
+  access:
+    enabled: true
+    var.paths: ["/data/apache*"]

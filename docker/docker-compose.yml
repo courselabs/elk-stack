@@ -22,6 +22,13 @@ services:
         - KIBANA_VERSION=7.10.2
         - NODE_TAG=10.23.1-alpine3.11
 
+  filebeat:
+    image: courselabs/filebeat:7.10
+    build: 
+      context: ./filebeat
+      args: 
+        - FB_VERSION=7.10.2
+
 #  data-brfss:
 #    image: courselabs/elasticsearch-data:brfss
 #    build: 
