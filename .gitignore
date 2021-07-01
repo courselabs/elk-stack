@@ -1,5 +1,3 @@
-shakespeare_6.0.json
-labs/logstash/data/
-labs/pipelines/data/
+**/shakespeare_6.0.json
+labs/**/data/
 labs/pipelines/pipelines/simplecsv-to-es.conf
-labs/templates/data/

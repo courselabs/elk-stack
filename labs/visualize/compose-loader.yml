@@ -1,0 +1,11 @@
+services:
+
+  data-brfss:
+    image: courselabs/elasticsearch-data:brfss
+    volumes:
+      - ./data:/data
+    networks:
+      - elkstack
+
+networks:
+  elkstack:

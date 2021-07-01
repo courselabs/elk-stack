@@ -36,21 +36,20 @@ These are hands-on resources to help you learn Elasticsearch, Logstash and Kiban
 
 ## Part 4 - Advanced Elasticsearch
 
-- [Node types]()
-- [Field types]()
 - [Analyzers]()
+- [Advanced mapping]() 
 - [Python client API]()
 
 ## Part 5 - Real-World ELK 
 
 - [Scaling Elasticsearch]()
 - [Buffering for Logstash]()
-- [Authentication for Kibana]() # nginx
+- [Authentication for Kibana]() 
 - [Fluentbit - swapping EFK for ELK]()
-
 
 ## Part 6 - Hackathon
 
+- [ELK vs. the Elastic stack]()
 - [Troubleshooting]()
 - [Hackathon!]() # new es cluster, logstach to ingest existing data, dashboard setup
 
