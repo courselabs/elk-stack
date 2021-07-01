@@ -7,7 +7,7 @@ These are hands-on resources to help you learn Elasticsearch, Logstash and Kiban
 
  - [Set up Docker and a Git client](setup) 
  - Download your repo
-    - Open a terminal (PowerShell, Bash, ZSH whatever you use) 
+    - Open a terminal (PowerShell on Windows; any shell on Linux/macOS) 
     - Run: `git clone xxx`
     - Open the folder: `cd elk-stack`
 - _Optional_
@@ -31,29 +31,27 @@ These are hands-on resources to help you learn Elasticsearch, Logstash and Kiban
 
 - [Running Logstash](labs/logstash) 
 - [Pipelines](labs/pipelines)
-- [Index templates and aliases]()
-- []()
+- [Index templates and aliases](labs/templates)
+- [Logstash and/or Beats](labs/beats)
 
-## Part 4 - Advanced Elasticsearch 
+## Part 4 - Advanced Elasticsearch
 
-- [Nodes, Shards and Replicas]()
-- [Analyzers]
-- 
--
+- [Node types]()
+- [Field types]()
+- [Analyzers]()
+- [Python client API]()
 
-## Part 5 - Beats and Other Data Loaders
+## Part 5 - Real-World ELK 
 
-- []()
-- [Fluentbit - the lightweight alternative to Logstash]()
-- 
-- 
+- [Scaling Elasticsearch]()
+- [Buffering for Logstash]()
+- [Authentication for Kibana]() # nginx
+- [Fluentbit - swapping EFK for ELK]()
 
 
-## Part 6 - Real-World ELK
+## Part 6 - Hackathon
 
-- [Scaling the Elasticsearch cluster]() # 3x small masters, 2x big data nodes - fast storage, much ram
-- [Buffering with Logstash]()
-- [Authentication with Kibana]() # nginx
+- [Troubleshooting]()
 - [Hackathon!]() # new es cluster, logstach to ingest existing data, dashboard setup
 
 

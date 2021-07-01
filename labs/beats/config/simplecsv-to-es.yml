@@ -1,0 +1,30 @@
+filebeat.inputs:
+- type: log
+  paths:
+    - /data/*.csv
+
+processors:
+  - decode_csv_fields:
+      fields:
+        message: simplecsv
+
+  - extract_array:
+      field: simplecsv
+      mappings:
+        event.number: 0
+        event.timestamp: 1
+        event.id: 2
+        event.code: 3
+
+  - timestamp:
+      field: event.timestamp
+      layouts: 
+        - '2006-01-02T15:04:05Z'
+
+  - drop_fields:
+      fields: [event.timestamp,message,simplecsv]
+
+output.elasticsearch:
+  hosts: elasticsearch:9200
+  indices:
+    - index: "simplecsv-fb"

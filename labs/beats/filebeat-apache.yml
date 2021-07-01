@@ -1,0 +1,19 @@
+services:
+
+  filebeat-setup:
+    image: courselabs/filebeat:7.10
+    entrypoint: ["/usr/share/filebeat/filebeat", "setup", "-e"]
+    networks:
+      - elkstack
+
+  filebeat-apache:
+    image: courselabs/filebeat:7.10 
+    depends_on:
+      - filebeat-setup
+    volumes:
+      - ./data:/data
+    networks:
+      - elkstack
+
+networks:
+  elkstack:

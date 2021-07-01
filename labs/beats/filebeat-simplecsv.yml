@@ -1,0 +1,13 @@
+services:
+
+  filebeat-simplecsv:
+    image: courselabs/filebeat:7.10
+    entrypoint: sh -c 'chmod go-w /usr/share/filebeat/filebeat.yml && /usr/share/filebeat/filebeat -e'
+    volumes:
+      - ./config/simplecsv-to-es.yml:/usr/share/filebeat/filebeat.yml
+      - ./data:/data
+    networks:
+      - elkstack
+
+networks:
+  elkstack:

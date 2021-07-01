@@ -1,0 +1,33 @@
+services:
+
+  logstash:
+    image: courselabs/logstash:7.10
+    volumes:
+      - ./pipelines/filebeat-pipeline.conf:/pipelines/default.conf
+    networks:
+      - elkstack
+
+  filebeat-simplecsv:
+    image: courselabs/filebeat:7.10
+    entrypoint: sh -c 'chmod go-w /usr/share/filebeat/filebeat.yml && /usr/share/filebeat/filebeat -e'
+    volumes:
+      - ./config/simplecsv-to-logstash.yml:/usr/share/filebeat/filebeat.yml
+      - ./data:/data
+    depends_on:
+      - logstash
+    networks:
+      - elkstack
+
+  filebeat-apache:
+    image: courselabs/filebeat:7.10
+    entrypoint: sh -c 'chmod go-w /usr/share/filebeat/filebeat.yml && /usr/share/filebeat/filebeat -e'
+    volumes:
+      - ./config/apache-to-logstash.yml:/usr/share/filebeat/filebeat.yml
+      - ./data:/data
+    depends_on:
+      - logstash
+    networks:
+      - elkstack
+
+networks:
+  elkstack:
